@@ -1,8 +1,3 @@
-// Using:
-//     Node.js
-//     npm install express.js
-//     npm install youtube-dl-exec --save
-
 const express = require('express');
 const youtubedl = require('youtube-dl-exec');
 
@@ -15,6 +10,7 @@ router.get("/get-link", async(req, res, next) => {
     const videoId = req.query.videoId
 
     await youtubedl(`https://www.youtube.com/watch?v=${videoId}`, {
+            //dumpSingleJson: true, //uncomment this out for BIG DATA
             noWarnings: true,
             noCallHome: true,
             noCheckCertificate: true,
