@@ -1,5 +1,9 @@
-npm init -y
-npm install youtube-dl-exec --save  
-npm install express
+commands in order.
 
-To run, node index.js
+  npm init -y 
+  npm install youtube-dl-exec --save  
+  npm install express
+
+  node index.js
+
+Thanks youtube-dl team
