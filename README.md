@@ -1,7 +1,9 @@
 commands to run in order.
 
-  npm init -y 
-  npm install youtube-dl-exec --save  
+  npm init -y
+  
+  npm install youtube-dl-exec --save 
+  
   npm install express
 
   node index.js
